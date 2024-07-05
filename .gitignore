@@ -1,0 +1,112 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+staticfiles
+
+# Django environment variables file
+.env
+
+# Django migrations
+**/migrations/*
+
+# Local development settings
+local_settings.py
+
+# Virtual environment
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Build directories
+build/
+dist/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production files
+.env.production
+.env.development.local
+
+# Coverage
+coverage/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs
+*.log
+
+# React
+/build
+/.pnp
+.pnp.js
+
+# Misc
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.project
+.idea
+.workspace
+.metadata
+*.bak
+*.tmp
+
+# Backend specific
+# Ignore Django auto-generated files
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+env/
+env.bak/
+env.local/
+env.production/
+.env.production
+.env.development.local
+.env.test
+.env.local
+instance/
+.env.bak
+.env.local.bak
+__pycache__/
+
+# Frontend specific
+# Ignore React build files and dependencies
+build/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.DS_Store
+
+# Miscellaneous
+*.pem
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.sublime-*
+
+# Ubuntu specific
+*~
+*.swp
